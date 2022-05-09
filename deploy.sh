@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-
+cd portfolio
 # abort on errors
 set -e
 
@@ -7,7 +7,7 @@ set -e
 npm run build
 
 # navigate into the build output directory
-cd portfolio
+cd dist
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
